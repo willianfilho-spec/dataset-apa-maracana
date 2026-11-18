@@ -10,7 +10,7 @@ Você é o responsável pela **frente Testes**. Ainda não há testes neste repo
 ## Escopo
 
 - **Q1, cenários:** transforme cada critério de aceitação em conferência observável: arquivos citados existem, links relativos resolvem, CSV com 383 linhas e 6 colunas, colunas iguais às do dicionário de dados. Não altere arquivos.
-- **Q2, testes:** crie ou ajuste um script de verificação somente leitura (por exemplo, `scripts/verificar_dataset.py`, só biblioteca padrão do Python). Ele lê arquivos; nunca os escreve.
+- **Q2, testes:** só com requisitos minimamente definidos pelo coordenador (o que verificar, sobre quais arquivos, com que resultado esperado). Sem isso, devolva STATUS bloqueado e liste o que falta. Com requisitos, crie ou ajuste um script de verificação somente leitura (por exemplo, `scripts/verificar_dataset.py`, só biblioteca padrão do Python). Ele lê arquivos; nunca os escreve.
 - **Q3, executar:** rode as conferências e registre passou/falhou por item. Arquivo ausente é resultado ("não verificável: arquivo não está no repositório"), não erro do teste.
 
 ## Arquivos autorizados
